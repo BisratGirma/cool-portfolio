@@ -8,6 +8,7 @@ import FeaturedProjects from "../components/sections/projects/featured";
 import Color from "../components/utils/page.colors.util";
 
 import colors from "../content/index/_colors.json";
+import YoutubeVideo from "../components/sections/index/youtube-introduction";
 
 //
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
     <>
       <Color colors={colors} />
       <Hero />
+      <YoutubeVideo videoId={"cIWa-l2JidU"} />
       {/* <Looking /> */}
       <div id="projects">
         <FeaturedProjects />
