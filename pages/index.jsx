@@ -16,7 +16,7 @@ export default function HomePage() {
     <>
       <Color colors={colors} />
       <Hero />
-      <YoutubeVideo videoId={"cIWa-l2JidU"} />
+      <YoutubeVideo videoId={"EEB7SodunYw"} />
       {/* <Looking /> */}
       <div id="projects">
         <FeaturedProjects />

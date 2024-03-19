@@ -39,14 +39,14 @@ export default function About() {
           </div>
           <div className={about.copy}>
             <CopyBlock
-              title="Softskills that pay the bills"
+              title="Softskills that speed up developement"
               containerClass={about.container}
               iconClass={about.icon}
               icon={["fat", "ear-listen"]}
               copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
             />
             <BadgesBlock
-              title="Reasearch and planning"
+              title="Entreprenuerial"
               containerClass={about.container}
               list={methods}
               fullContainer="fullContainer"
